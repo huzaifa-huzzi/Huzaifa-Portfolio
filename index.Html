@@ -12,17 +12,19 @@
       <div class="container">
         <nav>
           <img src="logo-2.png" class="logo">
-          <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+          <ul id="sidemenu">
+            <li><a href="#header" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
           </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="text">
           <p>I'm from Software engineer</p>
-          <h1>I'm  <span class="auto-Typed">Flutter Developer</span></h1>
+          <h1>I'm  <span class="auto-Typed" >Flutter Developer</span></h1>
           
         </div>
       </div>

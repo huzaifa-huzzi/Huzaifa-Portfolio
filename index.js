@@ -22,3 +22,16 @@ function opentab(tabname){
       document.getElementById(tabname).classList.add("active-tab");
 
 }
+
+ /*--------For Small Screens---------*/
+
+ var sidemeu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemeu.style.right = "0";
+  }
+  function  closemenu(){
+    sidemeu.style.right = "-200px";
+  }
+
+
