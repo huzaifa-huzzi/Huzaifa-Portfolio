@@ -1,5 +1,5 @@
 var typed = new Typed(".auto-Typed",{
-strings : ["Flutter Developer","UI/UX Designer","Web Developer"],
+strings : ["Flutter Developer","UI/UX Designer","Web Developer","Intraday Trader...."],
 typeSpeed:150,
 backSpeed:150,
 loop:true,
