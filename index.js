@@ -5,7 +5,7 @@ backSpeed:150,
 loop:true,
 });
 
-
+AOS.init();
 /*--------About Section---------*/
 
 var tablinks = document.getElementsByClassName("tab-Links");

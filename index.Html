@@ -7,6 +7,7 @@
     <link rel="shorcut icon" type="x-icon" href ="pic-2.png">
     <script src="index.js" defer></script> <!-- Include the JavaScript file -->
     <script src="https://kit.fontawesome.com/72cce1d41e.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <div id="header">
@@ -39,10 +40,9 @@
     
    
     <!---------About Section---------->
-    <div data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-     data-aos-delay="300"
-     data-aos-offset="0">
+
+    <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
      <div id="about">
       <div class="container">
         <div class="row">
@@ -86,42 +86,47 @@
         </div>
       </div>
     </div>
-</div>
          
+</div>
+    
+     
     <!-------------Services Section-------------------->
-              
-                 <div id="services">
-                       <div class="container">
-                        <h1 class="subtitle">My Services</h1>
-                        <div class="services-list">
+    <div data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
+    <div id="services">
+      <div class="container">
+       <h1 class="subtitle">My Services</h1>
+       <div class="services-list">
 
-                             <div>
-                              <i class="fa-brands fa-app-store-ios"></i>
-                              <h2>Flutter Developer</h2>
-                              <p>Crafting dynamic cross-platform solutions, our Flutter services ensure seamless app development, migration, UI/UX design, performance optimization, QA, and ongoing support. Partner with us for innovative, reliable solutions.</p>
-                              
-                             </div>
-
-
-                             <div>
-                              <i class="fa-solid fa-crop-simple"></i>
-                              <h2>UI/UX Designer </h2>
-                              <p>Unlocking captivating user experiences, our UI/UX design services blend innovation with functionality. From sleek interfaces to intuitive interactions, we craft designs that elevate user engagement and satisfaction, ensuring your digital presence stands out.</p>
-                              
-                             </div>
-
-                             <div>
-                              <i class="fa-solid fa-trademark"></i>
-                              <h2>Trading Consultant </h2>
-                              <p>Empowering traders with precision and insight, I specialize in guiding intraday traders through volatile markets with strategic analysis, real-time expertise, and a tailored approach for maximizing opportunities and minimizing risks..</p>
-                              
-                             </div>
+            <div>
+             <i class="fa-brands fa-app-store-ios"></i>
+             <h2>Flutter Developer</h2>
+             <p>Crafting dynamic cross-platform solutions, our Flutter services ensure seamless app development, migration, UI/UX design, performance optimization, QA, and ongoing support. Partner with us for innovative, reliable solutions.</p>
+             
+            </div>
 
 
-                        </div>
+            <div>
+             <i class="fa-solid fa-crop-simple"></i>
+             <h2>UI/UX Designer </h2>
+             <p>Unlocking captivating user experiences, our UI/UX design services blend innovation with functionality. From sleek interfaces to intuitive interactions, we craft designs that elevate user engagement and satisfaction, ensuring your digital presence stands out.</p>
+             
+            </div>
 
-                       </div>
-                 </div>
+            <div>
+             <i class="fa-solid fa-trademark"></i>
+             <h2>Trading Consultant </h2>
+             <p>Empowering traders with precision and insight, I specialize in guiding intraday traders through volatile markets with strategic analysis, real-time expertise, and a tailored approach for maximizing opportunities and minimizing risks..</p>
+             
+            </div>
+
+
+       </div>
+
+      </div>
+</div>
+</div>
+                 
 
 <!-----------Portfolio Section--------------->
    <div id="portfolio">
@@ -190,6 +195,7 @@
 
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
   
